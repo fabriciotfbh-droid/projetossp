@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ArrowUpRight, ChevronDown, ChevronUp, MapPin, Phone, ShieldCheck } from 'lucide-react';
+import { ArrowUpRight, ChevronDown, ChevronUp, MapPin, Phone } from 'lucide-react';
 import Logo from './Logo';
 
 const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -147,7 +147,6 @@ export default function CTA() {
             </motion.a>
 
             <div className="flex justify-start items-center gap-1.5 text-[14px] text-slate-400 font-mono">
-              <ShieldCheck className="w-4 h-4 text-gold-500 shrink-0" />
               <span>Conversa inicial para avaliar gargalos, impacto e prioridades de intervenção.</span>
             </div>
           </div>
