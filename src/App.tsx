@@ -25,14 +25,14 @@ export default function App() {
         {/* New Section — Foco Executivo (Personas) */}
         <ExecutiveFocus />
 
+        {/* New Section — Entregáveis do Diagnóstico */}
+        <DiagnosticDeliverables />
+
         {/* Section 2 — Dor real */}
         <PainPoints />
 
         {/* Section 3 — O que entregamos */}
         <Services />
-
-        {/* New Section — Entregáveis do Diagnóstico */}
-        <DiagnosticDeliverables />
 
         {/* Sections 4 & 5 — Resultados & Custo da Liderança (Includes Simulator) */}
         <Results />
