@@ -176,8 +176,8 @@ export default function Hero() {
               {/* Stat elements block */}
               <div className="grid grid-cols-2 gap-4">
                 {stats.map((stat, i) => (
-                  <div key={i} className="p-4 bg-navy-900 border border-slate-800/80 rounded-2xl relative group hover:border-gold-500/30 transition-all text-center sm:text-left">
-                    <span className="block font-mono text-[20px] sm:text-2xl font-extrabold text-gold-500 tracking-tight leading-none mb-1 group-hover:scale-105 transition-transform origin-center sm:origin-left">
+                  <div key={i} className="p-4 bg-navy-900 border border-slate-800/80 rounded-2xl relative group hover:border-gold-500/30 transition-all text-center">
+                    <span className="block font-mono text-[20px] font-extrabold text-gold-500 tracking-tight leading-none mb-1 group-hover:scale-105 transition-transform origin-center">
                       {stat.metric}
                     </span>
                     <span className="block text-[15px] font-bold text-white mb-2 tracking-tight">
