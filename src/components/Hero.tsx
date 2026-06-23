@@ -65,10 +65,10 @@ export default function Hero() {
                 initial={{ opacity: 0, y: -15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-navy-50 border border-navy-200/50 text-navy-800 rounded-full text-[14px] font-mono font-bold uppercase tracking-wider whitespace-nowrap"
+                className="inline-flex items-start sm:items-center gap-2 px-3.5 py-2 sm:py-1.5 bg-navy-50 border border-navy-200/50 text-navy-800 rounded-2xl sm:rounded-full text-[13px] sm:text-[14px] font-mono font-bold uppercase tracking-wider text-left sm:text-center"
               >
-                <span className="w-2 h-2 rounded-full bg-gold-500 animate-pulse"></span>
-                Consultoria Estratégica em Projetos
+                <span className="w-2 h-2 rounded-full bg-gold-500 animate-pulse mt-1.5 sm:mt-0 shrink-0"></span>
+                <span className="leading-tight">Consultoria Estratégica em Projetos</span>
               </motion.div>
 
               {/* Top CTA Button directly next to it */}
@@ -176,8 +176,8 @@ export default function Hero() {
               {/* Stat elements block */}
               <div className="grid grid-cols-2 gap-4">
                 {stats.map((stat, i) => (
-                  <div key={i} className="p-4 bg-navy-900 border border-slate-800/80 rounded-2xl relative group hover:border-gold-500/30 transition-all">
-                    <span className="block font-mono text-2xl font-extrabold text-gold-500 tracking-tight leading-none mb-1 group-hover:scale-105 transition-transform origin-left">
+                  <div key={i} className="p-4 bg-navy-900 border border-slate-800/80 rounded-2xl relative group hover:border-gold-500/30 transition-all text-center sm:text-left">
+                    <span className="block font-mono text-[20px] sm:text-2xl font-extrabold text-gold-500 tracking-tight leading-none mb-1 group-hover:scale-105 transition-transform origin-center sm:origin-left">
                       {stat.metric}
                     </span>
                     <span className="block text-[15px] font-bold text-white mb-2 tracking-tight">
