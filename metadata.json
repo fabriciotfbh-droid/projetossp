@@ -1,0 +1,6 @@
+{
+  "name": "Smart Partner Consulting",
+  "description": "Landing page de altíssimo padrão para a Smart Partner Consulting, focada na recuperação de projetos críticos e previsibilidade executiva.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
